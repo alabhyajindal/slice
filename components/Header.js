@@ -6,7 +6,7 @@ export default function Header() {
       <div className='flex flex-col items-center gap-2'>
         <Link href='/'>
           <a>
-            <img src='/logo.svg' className='h-14' />
+            <img src='/logo.svg' className='h-14' alt='slice Logo' />
           </a>
         </Link>
         <h1 className='text-4xl font-bold text-gray-700 mt-14'>
