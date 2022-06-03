@@ -38,7 +38,7 @@ export default function BlogPost({ title, link }) {
       className='flex flex-col gap-1 hover:opacity-80 active:scale-95 transition transform duration-100 ease-in-out'
     >
       <a href={link} className=''>
-        <h1 className='font-slice text-xl lg:text-2xl font-medium text-gray-800 '>
+        <h1 className='text-xl lg:text-2xl font-medium text-gray-800 '>
           {title}
         </h1>
       </a>
