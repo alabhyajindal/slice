@@ -33,13 +33,21 @@ export default function BlogPost({ title, link }) {
   const styledDate = `${dayName} ${day} ${monthName} ${year}`;
 
   return (
-    <div className='flex flex-col gap-1 hover:opacity-80 active:scale-95 transition transform duration-100 ease-in-out'>
+    <div
+      id='main'
+      className='flex flex-col gap-1 hover:opacity-80 active:scale-95 transition transform duration-100 ease-in-out'
+    >
       <a href={link} className=''>
         <h1 className='font-slice text-xl lg:text-2xl font-medium text-gray-800 '>
           {title}
         </h1>
       </a>
       <p className='text-gray-500'>{styledDate}</p>
+      <style jsx>{`
+        #main {
+          -webkit-tap-highlight-color: transparent;
+        }
+      `}</style>
     </div>
   );
 }
