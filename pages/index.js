@@ -9,7 +9,7 @@ export default function Home() {
         <title>slice engineering - Makers of slice</title>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
-      <div className='flex flex-col gap-10'>
+      <div className='flex flex-col gap-8'>
         {data.map((post) => (
           <BlogPost key={post.id} title={post.title} link={post.link} />
         ))}
