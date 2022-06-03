@@ -9,3 +9,11 @@
   font-display: optional;
   src: url(/fonts/slice-regular-webfont.woff2) format('woff2');
 }
+
+@font-face {
+  font-family: 'Slice';
+  font-style: normal;
+  font-weight: 500;
+  font-display: optional;
+  src: url(/fonts/slice-medium-webfont.woff2) format('woff2');
+}
