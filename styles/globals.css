@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Slice';
+  font-family: 'slice';
   font-style: normal;
   font-weight: 400;
   font-display: optional;
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: 'Slice';
+  font-family: 'slice';
   font-style: normal;
   font-weight: 500;
   font-display: optional;

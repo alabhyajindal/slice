@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Photon: The Swiss Army Knife for Deployments",
+    "link": "https://engineering.sliceit.com/2022/02/02/photon-the-swiss-army-knife-for-deployments/"
+  },
+  {
+    "id": 2,
+    "title": "CloudCustodian At Slice",
+    "link": "https://engineering.sliceit.com/2021/02/14/cloudcustodian-at-slice/"
+  },
+
+  {
+    "id": 3,
+    "title": "Slice Data Lake",
+    "link": "https://engineering.sliceit.com/2021/01/21/slice-data-lake/"
+  },
+  {
+    "id": 4,
+    "title": "Deployment of static websites with AWS Amplify",
+    "link": "https://engineering.sliceit.com/2021/01/06/deployment-of-static-websites-with-aws-amplify/"
+  },
+  {
+    "id": 5,
+    "title": "Session Manager: Driving operational excellence at slice!",
+    "link": "https://engineering.sliceit.com/2020/11/25/session-manager-driving-operational-excellence-at-slice/"
+  },
+  {
+    "id": 6,
+    "title": "Jarvis: Slack notification framework",
+    "link": "https://engineering.sliceit.com/2020/11/11/jarvis-slack-notification-framework/"
+  },
+  {
+    "id": 7,
+    "title": "S3 to Redshift / RDS data propagator",
+    "link": "https://engineering.sliceit.com/2020/10/28/s3-redshift-propagator/"
+  },
+  {
+    "id": 8,
+    "title": "Deployments using Immutable Infrastructure",
+    "link": "https://engineering.sliceit.com/2020/10/14/deployments-using-immutable-infrastructure/"
+  },
+  {
+    "id": 9,
+    "title": "Dynamic feature modules",
+    "link": "https://engineering.sliceit.com/2020/09/30/dynamic-feature-modules/"
+  },
+  {
+    "id": 10,
+    "title": "Pulse—keeping a check on our services",
+    "link": "https://engineering.sliceit.com/2020/09/04/pulse-keeping-a-check-on-our-services/"
+  },
+  {
+    "id": 11,
+    "title": "Hercules—the job scheduler",
+    "link": "https://engineering.sliceit.com/2020/07/27/hercules-the-job-scheduler/"
+  }
+]

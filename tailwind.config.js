@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Slice', ...defaultTheme.fontFamily.serif],
+        slice: ['Slice', ...defaultTheme.fontFamily.sans],
       },
     },
   },

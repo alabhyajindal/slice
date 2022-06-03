@@ -1,11 +1,19 @@
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Head from 'next/head';
+import data from '../data.json';
+import BlogPost from '../components/BlogPost';
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <Footer />
+    <div className='max-w-3xl mx-auto mt-10 p-4'>
+      <Head>
+        <title>slice engineering - Makers of slice</title>
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      </Head>
+      <div className='flex flex-col gap-10'>
+        {data.map((post) => (
+          <BlogPost key={post.id} title={post.title} link={post.link} />
+        ))}
+      </div>
     </div>
   );
 }
