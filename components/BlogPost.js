@@ -29,6 +29,7 @@ export default function BlogPost({ title, link }) {
   const dateStr = `${month}/${day}/${year}`;
   const dayName = getDayByName(dateStr, 'en-GB');
 
+  // The date format which gets rendered on the page
   const styledDate = `${dayName} ${day} ${monthName} ${year}`;
 
   return (
